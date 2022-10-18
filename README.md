@@ -2,6 +2,8 @@
 
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/blavin3/uml-testing/blob/master/images/test.iuml)
 
+![Tree view 1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/testother.iuml)
+
 ## Testing Mermaid
 
 ```mermaid
