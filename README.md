@@ -2,37 +2,19 @@
 
 ## .iuml
 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/blavin3/uml-testing/blob/master/images/test.iuml)
-
-## Embedded plantUML HTML
-
-<div hidden>
-```
-@startuml firstDiagram
-
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-		
-@enduml
-```
-</div>
-
-![](firstDiagram.svg)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/blavin3/uml-testing/master/images/test.iuml)
 
 ## Testing Mermaid
 
+* Note: no Doxygen integration documentation
+* Not compatibale with Bitbucket, but VS extensions available
+
 ```mermaid
-journey
-	title Me studying for exams
-	section Exam is announced
-        I start studying: 1: Me
-        Make notes: 2: Me
-        Ask friend for help: 3: Me, Friend
-        We study togther: 5: Me, Friend
-    section Exam Day
-        Syllabys is incomplete: 2: Me
-        Give exam: 1: Me, Friend
-    section Result Declared
-        I passed the exam with destinction!: 5: Me
-        Friend barely gets passing marks: 2: Friend
+graph TD
+    A[Driver] --> B[Resources]
+    A[Driver] --> C[SRC]
+    C --> src.c
+    C --> src.h
+    B --> mermaid.txt
+    B --> driver_ug.md
 ```
