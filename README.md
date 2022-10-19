@@ -1,6 +1,23 @@
 # Testing UML
 
+## .iuml
+
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/blavin3/uml-testing/blob/master/images/test.iuml)
+
+## Embedded plantUML HTML
+
+<div hidden>
+```
+@startuml firstDiagram
+
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+		
+@enduml
+```
+</div>
+
+![](firstDiagram.svg)
 
 ## Testing Mermaid
 
